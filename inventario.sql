@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 09-02-2026 a las 15:33:59
+-- Tiempo de generación: 09-02-2026 a las 22:38:39
 -- Versión del servidor: 10.1.38-MariaDB
 -- Versión de PHP: 7.3.2
 
@@ -56,9 +56,9 @@ INSERT INTO `almacen` (`id`, `nombre`, `costo`, `cantidad`, `ubicacion`, `precio
 (14, 'Manguera 1/2', '5.6', '35.00', 'Almacen', '10', '0', 'Luso Cars'),
 (15, 'Manguera 13/32', '5.3', '24.00', 'Almacen', '10', '0', 'Luso Cars'),
 (16, 'Manguera 5/16', '4.91', '8.00', 'Almacen', '10', '0', 'Luso Cars'),
-(17, 'Fitting Union 13/32', '0.49', '50.00', '1F1', '2', '0', 'Luso Cars'),
-(18, 'Fitting Union 1/2', '0.52', '49.00', '1G1', '2', '0', 'Luso Cars'),
-(19, 'Fitting Union 5/16', '0.45', '50.00', '1E1', '2', '0', 'Luso Cars'),
+(17, 'Fitting Union 13/32', '0.49', '28.00', '1F1', '2', '0', 'Luso Cars'),
+(18, 'Fitting Union 1/2', '0.52', '25.00', '1G1', '2', '0', 'Luso Cars'),
+(19, 'Fitting Union 5/16', '0.45', '32.00', '1E1', '2', '0', 'Luso Cars'),
 (20, 'Evaporador Para Adaptar', '15', '9.00', 'Est 19', '30', '0', 'Carfloca'),
 (21, 'Evaporador Fiat Tempra R12', '15', '1.00', 'Est 18-A', '30', '0', 'Carfloca'),
 (22, 'Evaporador Hyundai H1 07-15', '42.12', '1.00', 'Est 18-B', '65', '0', 'Luso Cars'),
@@ -422,7 +422,38 @@ INSERT INTO `almacen` (`id`, `nombre`, `costo`, `cantidad`, `ubicacion`, `precio
 (391, 'Fitting Union 5/16 Hierro', '0.48', '53.00', '1D2', '2', '0', 'Luso Cars'),
 (392, 'Fitting Porta Valvula Lapiz C/Rapida', '2', '7.00', '1B3', '4', '0', 'Luso Cars'),
 (393, 'Fitting Porta Valvula Lapiz Rosca', '2.56', '2.00', '1B3', '5', '0', 'Luso Cars'),
-(394, 'Fitting Union 5/8 A 1/2 C/Cargador R12', '1.50', '6.00', '1C3', '3', '0', 'Carfloca');
+(394, 'Fitting Union 5/8 A 1/2 C/Cargador R12', '1.50', '6.00', '1C3', '3', '0', 'Carfloca'),
+(395, 'Fitting Union 5/8 Hierro', '1', '22.00', '1D3', '2', '0', 'Infra Parts'),
+(396, 'Fitting Milimetrico Curvo Inserto', '0.62', '7.00', '1B4', '2', '0', 'Luso Cars'),
+(397, 'Fitting Milimetrico Recto Oring', '0.58', '1.00', '1C4', '2', '0', 'Luso Cars'),
+(398, 'Fitting Milimetrico Curvo Oring', '0.67', '3.00', '1D4', '2', '0', 'Luso Cars'),
+(399, 'Fitting Toma Block Toyota 13/32 Curvo', '1.73', '7.00', '1C5', '4', '0', 'Luso Cars'),
+(400, 'Fitting Toma Block Toyota 1/2 Curvo', '1.90', '9.00', '1D5', '4', '0', 'Luso Cars'),
+(401, 'Fitting Toma Block Toyota 1/2 Recto', '1.88', '10.00', '1D5', '4', '0', 'Luso Cars'),
+(402, 'Fitting Curvo Oring 13/32 C/Cargador Alta R134', '1', '2.00', '1B5', '2', '0', 'Carfloca'),
+(403, 'Fitting 5/16 A 13/32 Curvo-Recto-Semi Curvo Oring', '1', '23.00', '1B6', '2', '0', 'Carfloca'),
+(404, 'Fitting 5/16 Semi Curvo Oring', '1', '52.00', '1C6', '2', '0', 'Infra Parts'),
+(405, 'Fitting Union T 5/16', '1.50', '10.00', '1D6', '3', '0', 'Carfloca'),
+(406, 'Condensador Universal 14x24', '52', '1.00', 'Est 21-D', '75', '0', 'Airca'),
+(407, 'Fitting Union 5/8', '0.62', '16.00', '1H1', '2', '0', 'Luso Cars'),
+(408, 'Fitting 5/16 Recto Inserto', '0.72', '16.00', '1I1', '2.5', '0', 'Luso Cars'),
+(409, 'Fitting 5/16 Curvo Oring', '0.60', '22.00', '1E2', '3', '0', 'Luso Cars'),
+(410, 'Fitting 5/16 Recto Oring', '0.58', '34.00', '1F2', '3', '0', 'Luso Cars'),
+(411, 'Fitting 5/16 Curvo Flare', '0.57', '6.00', '1G2', '3', '0', 'Luso Cars'),
+(413, 'Fitting 5/16 Semi Curvo Flare', '0.70', '15.00', '1I2', '3', '0', 'Luso Cars'),
+(414, 'Fitting 13/32 Curvo Oring', '0.66', '19.00', '1E3', '3', '0', 'Luso Cars'),
+(415, 'Fitting 13/32 Recto Oring', '0.62', '11.00', '1F3', '3', '0', 'Luso Cars'),
+(416, 'Fitting 13/32 Curvo Flare', '0.67', '12.00', '1G3', '3', '0', 'Luso Cars'),
+(417, 'Fitting 13/32 Recto Flare', '0.58', '19.00', '1H3', '3', '0', 'Luso Cars'),
+(418, 'Fitting 13/32 Recto Inserto', '0', '0.00', '1F3', '3', '0', 'Luso Cars'),
+(419, 'Fitting 1/2 Recto Inserto', '0.78', '10.00', '1E4', '3', '0', 'Luso Cars'),
+(420, 'Fitting 1/2 Curvo Oring', '0.73', '20.00', '1F4', '3', '0', 'Luso Cars'),
+(421, 'Fitting 1/2 Curvo Insert', '0.82', '10.00', '1G4', '3', '0', 'Luso Cars'),
+(422, 'Fitting 1/2 Recto Oring', '0.70', '49.00', '1H4', '3', '0', 'Luso Cars'),
+(423, 'Fitting 1/2 Recto Flare', '0.66', '6.00', '1I4', '3', '0', 'Luso Cars'),
+(424, 'Fitting 1/2 Curvo Flare y Semi Curvo', '0.90', '13.00', '1E5', '3', '0', 'Luso Cars'),
+(425, 'Fitting Rosca 1/2 A 5/8 Flare', '1', '2.00', '1F5', '2', '0', 'Carfloca'),
+(426, 'Fitting 5/8 Recto Oring', '0.90', '5.00', '1G5', '3', '0', 'Luso Cars');
 
 -- --------------------------------------------------------
 
@@ -591,7 +622,7 @@ ALTER TABLE `ventas_del_dia`
 -- AUTO_INCREMENT de la tabla `almacen`
 --
 ALTER TABLE `almacen`
-  MODIFY `id` int(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=395;
+  MODIFY `id` int(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=427;
 
 --
 -- AUTO_INCREMENT de la tabla `proveedores`
