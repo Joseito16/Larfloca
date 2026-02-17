@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 16-02-2026 a las 19:58:58
+-- Tiempo de generación: 17-02-2026 a las 20:05:08
 -- Versión del servidor: 10.1.38-MariaDB
 -- Versión de PHP: 7.3.2
 
@@ -48,15 +48,15 @@ INSERT INTO `almacen` (`id`, `nombre`, `costo`, `cantidad`, `ubicacion`, `precio
 (2, 'Valvula Expansion Super Duty', '10.81', '0.00', '4GB1', '20', '0', 'Luso Cars'),
 (5, 'Empacadura V5', '2.34', '19.00', 'Exibicion', '6', '0', 'Luso Cars'),
 (6, 'Empacadura FX15', '1.58', '15.00', 'Exibicion', '6', '0', 'Luso Cars'),
-(7, ' Gas R134a', '180', '5.80', 'Exibicion', '20', '0', 'Frio K29'),
+(7, ' Gas R134a', '180', '4.30', 'Exibicion', '20', '0', 'Frio K29'),
 (9, 'Aceite Emkaroil Pag 150', '5.25', '20.00', 'Mostrador', '8', '0', 'C. Hernandez'),
-(11, 'Ferruler 13/32', '0.24', '50.00', '5H1/ Est 10-C', '1', '0', 'Luso Cars'),
-(12, 'Ferruler 1/2', '0.20', '48.00', '5I1', '1', '0', 'Luso Cars'),
+(11, 'Ferruler 13/32', '0.24', '48.00', '5H1/ Est 10-C', '1', '0', 'Luso Cars'),
+(12, 'Ferruler 1/2', '0.20', '44.00', '5I1', '1', '0', 'Luso Cars'),
 (13, 'Ferruler 5/16', '0.22', '50.00', '5G1/ Est 10-C', '1', '0', 'Luso Cars'),
-(14, 'Manguera 1/2', '5.6', '35.00', 'Almacen', '10', '0', 'Luso Cars'),
-(15, 'Manguera 13/32', '5.3', '24.00', 'Almacen', '10', '0', 'Luso Cars'),
+(14, 'Manguera 1/2', '5.6', '34.60', 'Almacen', '10', '0', 'Luso Cars'),
+(15, 'Manguera 13/32', '5.3', '23.60', 'Almacen', '10', '0', 'Luso Cars'),
 (16, 'Manguera 5/16', '4.91', '8.00', 'Almacen', '10', '0', 'Luso Cars'),
-(17, 'Fitting Union 13/32', '0.49', '27.00', '1F1', '2', '0', 'Luso Cars'),
+(17, 'Fitting Union 13/32', '0.49', '25.00', '1F1', '2', '0', 'Luso Cars'),
 (18, 'Fitting Union 1/2', '0.52', '24.00', '1G1', '2', '0', 'Luso Cars'),
 (19, 'Fitting Union 5/16', '0.45', '32.00', '1E1', '2', '0', 'Luso Cars'),
 (20, 'Evaporador Para Adaptar', '15', '9.00', 'Est 19', '30', '0', 'Carfloca'),
@@ -65,7 +65,7 @@ INSERT INTO `almacen` (`id`, `nombre`, `costo`, `cantidad`, `ubicacion`, `precio
 (23, 'Evaporador Hyundai Tucson/ Kia Sportage 13-18 (Ruizar)', '38', '1.00', 'Est 18-B', '60', '0', 'Ruizar'),
 (24, 'Evaporador Hyundai Tucson/ Kia Sportage 16-18 (Luso)', '38.22', '2.00', 'Est 18-B', '60', '0', 'Luso Cars'),
 (25, 'Evaporador Hyundai Tucson Fino 05-08', '32.88', '1.00', 'Est 18-C', '50', '0', 'Luso Cars'),
-(26, 'Evaporador Hyundai Tucson Grueso (Luso)', '38.58', '2.00', 'Est 18-C', '60', '0', 'Luso Cars'),
+(26, 'Evaporador Hyundai Tucson Grueso (Luso)', '38.58', '1.00', 'Est 18-C', '60', '0', 'Luso Cars'),
 (27, 'Evaporador Hyundai Tucson Grueso (Ruizar)', '38.58', '1.00', 'Est 18-D', '60', '0', 'Ruizar'),
 (28, 'Evaporador Elantra Fino 04-06', '38', '2.00', 'Est 18-D', '60', '0', 'Ruizar'),
 (29, 'Evaporador Hyundai Accent 12-18', '38', '1.00', 'Est 18-E', '60', '0', 'Ruizar'),
@@ -77,7 +77,7 @@ INSERT INTO `almacen` (`id`, `nombre`, `costo`, `cantidad`, `ubicacion`, `precio
 (35, 'Evaporado Grand Cherokee KK 11-16 (Oring) (Ruizar)', '39', '2.00', 'Est 17-B', '60', '0', 'Ruizar'),
 (36, 'Evaporador Dodge Ram/ Pick Up 11-18', '38.48', '1.00', 'Est 17-B', '60', '0', 'Luso Cars'),
 (37, 'Evaporador Jeep Compas/Carilber 10-12', '39.12', '1.00', 'Est 17-C', '60', '0', 'Luso Cars'),
-(38, 'Evaporador Jeep Compas/Caliber/Sebrin 07-09', '39.12', '1.00', 'Est 17-C', '60', '0', 'Luso Cars'),
+(38, 'Evaporador Jeep Compas/Caliber/Sebrin 07-09', '39.12', '0.00', 'Est 17-C', '60', '0', 'Luso Cars'),
 (39, 'Evaporador Grand Cherokee 05-10 (Tubo Lago)', '36.64', '1.00', 'Est 17-C', '60', '0', 'Luso Cars'),
 (40, 'Evaporador Ford Spedicion 06-08', '20', '3.00', 'Est 16-B', '40', '0', 'Carfloca'),
 (41, 'Evaporador Ford Fiesta Max', '22.5', '2.00', 'Est 16-B', '45', '0', 'Carfloca'),
@@ -311,7 +311,7 @@ INSERT INTO `almacen` (`id`, `nombre`, `costo`, `cantidad`, `ubicacion`, `precio
 (279, 'Aspas De Sopladores Para Adaptar', '5', '18.00', 'Est 27-E', '10', '0', 'Carfloca'),
 (280, 'Filtro Antipolen Aveo 1.6', '3.25', '1.00', 'Exibicion', '7', '0', 'Rodifilter'),
 (281, 'Filtro Antipolen Aveo LS/LuvDmax', '3.25', '2.00', 'Exibicion', '7', '0', 'Rodifilter'),
-(282, 'Filtro Antipolen Aveo LT', '3.25', '4.00', 'Exibicion', '7', '0', 'Rodifilter'),
+(282, 'Filtro Antipolen Aveo LT', '3.25', '3.00', 'Exibicion', '7', '0', 'Rodifilter'),
 (283, 'Filtro Antipolen Toyota Corolla', '3.25', '1.00', 'Exibicion', '7', '0', 'Rodifilter'),
 (284, 'Filtro Antipolen Toyota Fortuner/ Hilux', '5.67', '2.00', 'Est Microondas', '10', '0', 'Rodifilter'),
 (285, 'Filtro Antipolen Optra LT', '4.10', '2.00', 'Exibicion', '7', '0', 'Rodifilter'),
@@ -533,7 +533,44 @@ INSERT INTO `almacen` (`id`, `nombre`, `costo`, `cantidad`, `ubicacion`, `precio
 (503, 'Contactor 3 Polos 24V', '8', '1.00', '2I3', '15', '0', 'Carfloca'),
 (504, 'Swiche Aire Acondicionado Varios', '2', '42.00', '2I4', '4', '0', 'Carfloca'),
 (505, 'Vacum De Vacio Automotriz', '1', '7.00', '2J3', '2', '0', 'Carfloca'),
-(506, 'Termostato Horno Varios', '3', '8.00', '2J4', '6', '0', 'Carfloca');
+(506, 'Termostato Horno Varios', '3', '8.00', '2J4', '6', '0', 'Carfloca'),
+(507, 'Capacitor 10 MF 250-370', '1.15', '22.00', '3B1', '3', '0', 'Infra Parts'),
+(508, 'Capacitor 25 MF (370/450)', '1.54', '1.00', '3B2', '5', '0', 'Infra Parts'),
+(509, 'Capacitor 25+3,5 MF (370/450)', '1.5', '8.00', '3B2', '5', '0', 'Carfloca'),
+(510, 'Capacitor 25+5 MF (370/450)', '2.20', '2.00', '3B2', '5', '0', 'Infra Parts'),
+(511, 'Capacitor 30 MF (370/450)', '1.67', '4.00', '3B3', '5', '0', 'Infra Parts'),
+(512, 'Capacitor 35 MF (370/450)', '1.87', '4.00', '3B4', '5', '0', 'Infra Parts'),
+(513, 'Capacitor 40 MF (370/450)', '1.97', '2.00', '3C1', '5', '0', 'Infra Parts'),
+(514, 'Capacitor 40+5 MF (370/450)', '2.50', '2.00', '3C1', '5', '0', 'Infra Parts'),
+(515, 'Capacitor 45 MF (370/450)', '2.03', '2.00', '3C2', '5', '0', 'Infra Parts'),
+(516, 'Capacitor 45+5 MF (370/450)', '2.65', '5.00', '3C2', '5', '0', 'Infra Parts'),
+(517, 'Capacitor 50 MF (370/450)', '2.04', '10.00', '3C3', '5', '0', 'Infra Parts'),
+(518, 'Capacitor 55 MF (370/450)', '2.36', '10.00', '3C4', '5', '0', 'Infra Parts'),
+(519, 'Capacitor 70 MF 440V', '3', '5.00', '3D1', '6', '0', 'Luso Cars'),
+(520, 'Polea En V Automotriz Universal', '9.03', '6.00', '3D2', '20', '0', 'Airca'),
+(521, 'Micro Motor Nevera Para Adaptar (Aspa Base)', '6.80', '3.00', '3D3', '15', '0', 'Infra Parts'),
+(522, 'Resistencia De Nevera Vidrio (Varias)', '1.60', '15.00', '3D4', '5', '0', 'Infra Parts'),
+(523, 'Capacitor 80 MF 440V', '3.42', '4.00', '3E1', '7', '0', 'Luso Cars'),
+(524, 'Polea Universal Automotriz Multicanal', '0', '0.00', '3E2', '0', '0', 'Luso Cars'),
+(525, 'Micro Motor Nevera (Varios)', '5', '4.00', '3E3', '10', '0', 'Infra Parts'),
+(526, 'Resistencia De Nevera Metal (Varios)', '3.29', '16.00', '3E4', '7', '0', 'Infra Parts'),
+(527, 'Capacitor Bomba Agua 30 MF 250/450', '1.45', '4.00', '3F1', '5', '0', 'Infra Parts'),
+(528, 'Capacitor Bomba Agua 25 MF 250/450', '1.34', '1.00', '3F1', '5', '0', 'Infra Parts'),
+(529, 'Capacitor Bomba Agua 16 MF 250/450', '1.10', '3.00', '3F1', '5', '0', 'Infra Parts'),
+(530, 'Poleas 508 y Otras', '10', '1.00', '3F2', '20', '0', 'Luso Cars'),
+(531, 'Aspas Micro Motor Nevera', '1', '4.00', '3F3', '2', '0', 'Carfloca'),
+(532, 'Rollo Teflon', '0.80', '5.00', '3F4', '2', '0', 'Chino'),
+(533, 'Capacitor Bomba Agua 120 MF 250/370', '4.25', '3.00', '3G1', '10', '0', 'Infra Parts'),
+(534, 'Capacitor Bomba Agua 60 MF 250/370', '2.42', '2.00', '3G1', '5', '0', 'Infra Parts'),
+(535, 'Capacitor Bomba Agua 35 MF 250/370', '1.65', '4.00', '3G1', '5', '0', 'Infra Parts'),
+(536, 'Poleas Univerales Usadas', '1', '5.00', '3G2', '3', '0', 'Carfloca'),
+(537, 'Piezas Motor Micro Nevera', '0.5', '5.00', '3G3', '1', '0', 'Carfloca'),
+(538, 'Cinta PVC', '1.34', '5.00', '3G4/Exibicion', '3', '0', 'Luso Cars'),
+(539, 'Capacitor 35+5 MF (370/450)', '2.33', '2.00', '3B4', '5', '0', 'Infra Parts'),
+(540, 'Oring 13/32', '0.05', '41.00', 'Exibicion', '0.25', '0', 'Luso Cars'),
+(541, 'Oring 1/2', '0.05', '50.00', 'Exibicion', '0.20', '0', 'Luso Cars'),
+(542, 'Oring 5/16', '0.05', '50.00', 'Exibicion', '0.25', '0', 'Luso Cars'),
+(543, 'Locha V5', '0.40', '16.00', 'Exibicion', '1', '0', 'Luso Cars');
 
 -- --------------------------------------------------------
 
@@ -567,7 +604,8 @@ INSERT INTO `proveedores` (`id`, `nombre`, `telefono`, `correo`, `ubicacion`) VA
 (18, 'TYC', '', '', 'Maracaibo'),
 (19, 'Rodifilter', '04144070261', 'prodifilter@hotmail.com', 'Valencia'),
 (20, 'Rober', '', '', 'Barquisimeto'),
-(21, 'Sulvaran', '', '', 'Calle 42 entre 30 y 31');
+(21, 'Sulvaran', '', '', 'Calle 42 entre 30 y 31'),
+(22, 'Chino', '000000000', '', 'Centro');
 
 -- --------------------------------------------------------
 
@@ -627,7 +665,22 @@ INSERT INTO `ventas` (`id`, `nombre`, `cantidad`, `total`, `total_bs`, `forma_pa
 (9, 'Manguera 1/2', '0.40', '6', '3300', 'Punto', '', '', '2026-01-12 17:48:40', 1, 'carrito_69656aa4a24443.47949004'),
 (10, 'Ferruler 5/16', '1.00', '1', '400', 'Punto', '', '', '2026-01-20 14:57:37', 1, 'carrito_696f8a5f8bf361.59383870'),
 (11, 'Evaporador Mitsubishi Lancer 94-02', '1.00', '60', '30000', 'Transferencia', '0412', '', '2026-01-21 17:37:58', 1, 'carrito_69711a1d4b77a9.31396880'),
-(12, 'Evaporador Universal 5 Rejillas 12V (Ambulancia)', '1.00', '150', '0', 'Efectivo', '', '', '2026-02-02 13:48:56', 0, 'carrito_6980e3889afe62.49673936');
+(12, 'Evaporador Universal 5 Rejillas 12V (Ambulancia)', '1.00', '150', '0', 'Efectivo', '', '', '2026-02-02 13:48:56', 0, 'carrito_6980e3889afe62.49673936'),
+(13, ' Gas R134a', '0.50', '10', '5000', 'Transferencia', '5895', '', '2026-02-17 14:59:28', 1, 'carrito_699491eacf02e2.31662279'),
+(14, 'Evaporador Jeep Compas/Caliber/Sebrin 07-09', '1.00', '55', '30000', 'Transferencia', '1234', '', '2026-02-17 14:59:28', 1, 'carrito_6994924a1227d1.71814947'),
+(15, 'Oring 13/32', '4.00', '1', '400', 'Punto', '', '', '2026-02-17 14:59:28', 1, 'carrito_6994933e2dfa73.57100680'),
+(16, 'Evaporador Hyundai Tucson Grueso (Luso)', '1.00', '56', '31000', 'Transferencia', '1234', '', '2026-02-17 14:59:28', 1, 'carrito_6994951fdd6801.07974838'),
+(17, 'Filtro Antipolen Aveo LT', '1.00', '6', '3000', 'Transferencia', '1234', '', '2026-02-17 14:59:28', 1, 'carrito_6994955bd341d2.58060397'),
+(18, 'Manguera 13/32', '0.40', '4', '2200', 'Transferencia', '1234', '', '2026-02-17 14:59:28', 1, 'carrito_699495ca438911.75750644'),
+(19, 'Ferruler 13/32', '2.00', '2', '1100', 'Transferencia', '1234', '', '2026-02-17 14:59:28', 1, 'carrito_699495ca438911.75750644'),
+(20, 'Fitting Union 13/32', '1.00', '2', '1200', 'Transferencia', '1234', '', '2026-02-17 14:59:28', 1, 'carrito_699495ca438911.75750644'),
+(21, ' Gas R134a', '0.50', '10', '5000', 'Transferencia', '1234', '', '2026-02-17 14:59:28', 1, 'carrito_6994a630c4b871.37934041'),
+(22, 'Manguera 1/2', '0.40', '4', '2250', 'Transferencia', '1234', '', '2026-02-17 14:59:28', 1, 'carrito_6994a630c4b871.37934041'),
+(23, 'Ferruler 1/2', '4.00', '4', '2750', 'Transferencia', '1234', '', '2026-02-17 14:59:28', 1, 'carrito_6994a630c4b871.37934041'),
+(24, ' Gas R134a', '0.50', '10', '5000', 'Transferencia', '1234', '', '2026-02-17 14:59:28', 1, 'carrito_6994abc3d4fc61.39495061'),
+(25, 'Locha V5', '2.00', '2', '1100', 'Punto', '', '', '2026-02-17 14:59:28', 1, 'carrito_6994ac4c30dfc0.69280247'),
+(26, 'Oring 13/32', '5.00', '1', '600', 'Efectivo Bs', '', '', '2026-02-17 14:59:28', 1, 'carrito_6994ac7788a345.41212382'),
+(27, 'Locha V5', '2.00', '2', '1100', 'Punto', '', '', '2026-02-17 14:59:28', 1, 'carrito_6994b98f885375.99684717');
 
 -- --------------------------------------------------------
 
@@ -658,7 +711,8 @@ CREATE TABLE `ventas_del_dia` (
 INSERT INTO `ventas_del_dia` (`id`, `num_ventas`, `total_cantidad`, `total_dinero`, `efectivo`, `transferencia`, `punto`, `total_bs`, `transferencia_bs`, `punto_bs`, `efectivo_bs`, `fecha`, `refe_transferencia`) VALUES
 (1, '5', '7.90', '67', '0', '22', '45', '36250', '11750', '24500', '0', '2026-01-12 17:48:40', '8073, 8073, 8073'),
 (2, '1', '1.00', '1', '0', '0', '1', '400', '0', '400', '0', '2026-01-20 14:57:36', ''),
-(3, '1', '1.00', '60', '0', '60', '0', '30000', '30000', '0', '0', '2026-01-21 17:37:58', '0412');
+(3, '1', '1.00', '60', '0', '60', '0', '30000', '30000', '0', '0', '2026-01-21 17:37:58', '0412'),
+(4, '11', '25.30', '169', '0', '163', '5', '91700', '88500', '2600', '600', '2026-02-17 14:59:28', '5895, 1234, 1234, 1234, 1234, 1234, 1234, 1234, 1234, 1234, 1234');
 
 --
 -- Índices para tablas volcadas
@@ -702,13 +756,13 @@ ALTER TABLE `ventas_del_dia`
 -- AUTO_INCREMENT de la tabla `almacen`
 --
 ALTER TABLE `almacen`
-  MODIFY `id` int(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=507;
+  MODIFY `id` int(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=544;
 
 --
 -- AUTO_INCREMENT de la tabla `proveedores`
 --
 ALTER TABLE `proveedores`
-  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=22;
+  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=23;
 
 --
 -- AUTO_INCREMENT de la tabla `usuarios`
@@ -720,13 +774,13 @@ ALTER TABLE `usuarios`
 -- AUTO_INCREMENT de la tabla `ventas`
 --
 ALTER TABLE `ventas`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=28;
 
 --
 -- AUTO_INCREMENT de la tabla `ventas_del_dia`
 --
 ALTER TABLE `ventas_del_dia`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
